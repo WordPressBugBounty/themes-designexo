@@ -568,7 +568,9 @@ address i {
 	background: #FAB702;
 	color: #fff;
 }
-
+.footer-sidebar .widget dl a {
+	color: #FAB702;
+}
 
 
 /*--------------------------------------------------
