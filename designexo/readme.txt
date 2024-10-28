@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: 4.7
 Tested up to: 6.6.1
 Requires PHP: 5.6
-Stable tag: 15.6
-Version: 15.6
+Stable tag: 15.7
+Version: 15.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -59,6 +59,9 @@ License: CC0 Public Domain
 License: CC0 Public Domain
 
 == Changelog ==
+
+= Version 15.7
+* We added the default color of anchor tag in the wp-block-embed-youtube widget in footer widget area.
 
 = Version 15.6
 * We added the default color of anchor tag in the dl element for the footer widgets area.
