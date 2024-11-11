@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: 4.7
 Tested up to: 6.6.1
 Requires PHP: 5.6
-Stable tag: 15.8
-Version: 15.8
+Stable tag: 15.9
+Version: 15.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -59,6 +59,9 @@ License: CC0 Public Domain
 License: CC0 Public Domain
 
 == Changelog ==
+
+= Version 15.9
+* We added the top space and change the border color of the wp-block-details widget in the footer widget area.
 
 = Version 15.8
 * We added the color of the wp-block-media-text widget in the footer widget area.

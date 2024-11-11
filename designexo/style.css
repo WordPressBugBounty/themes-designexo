@@ -4,7 +4,7 @@ Theme URI: https://themearile.com/designexo-theme/
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: Designexo is a fully modern and high-quality WordPress theme for creating architects and interior design websites. The theme perfectly suited for architecture, interior design, decoration, business, furniture, home decor, construction, corporate, agency, business promotion, industries, Beauty & spa salons, photography, gym, blog, travel agency and many other websites compatible, You will have lots of options to consider. As well as sophisticated plus it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes. This theme supports the best Elementor page builder to create, edit and updates page designs as per the requirement. Designexo also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics and much more. Check the demo of Designexo Pro https://themearile.com/designexo-pro-theme/.
-Version: 15.8
+Version: 15.9
 Tested up to: 6.6.1
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -2966,13 +2966,17 @@ ul.wp-block-rss li.wp-block-rss__item:last-child {
 .footer-sidebar .widget .wp-block-table th {
 	border: 1px solid #333;
 }
-
 .footer-sidebar .widget .wp-block-details {
 	background-color: #202020;
 	padding: 1rem;
 }
 .footer-sidebar .widget .wp-block-media-text p {
 	color: #cccccc;
+}
+.footer-sidebar .widget .wp-block-details p {
+    padding-top: 0.625rem;
+    margin-top: 0.625rem;
+    border-top: 1px solid #3f3f3f;
 }
 
 
