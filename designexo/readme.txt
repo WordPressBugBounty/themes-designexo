@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: 4.7
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 16.0
-Version: 16.0
+Stable tag: 16.1
+Version: 16.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -59,6 +59,9 @@ License: CC0 Public Domain
 License: CC0 Public Domain
 
 == Changelog ==
+
+= Version 16.1
+* We have updated the footer copyright text.
 
 = Version 16.0
 * We have fixed the hover color issue of upgrade to pro button in the customizer.
