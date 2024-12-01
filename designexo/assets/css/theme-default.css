@@ -503,6 +503,9 @@ address i {
 .theme-blog .post .entry-content ul.wp-block-page-list li.wp-block-navigation-item a:hover {
 	color: #FAB702;
 }
+.sidebar .widget .wp-block-group .wp-block-embed .wp-element-caption a {
+	color: #FAB702;
+} 
 
 
 /*------------------------------------------------------------
