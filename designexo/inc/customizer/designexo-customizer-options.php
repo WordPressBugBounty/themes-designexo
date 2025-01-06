@@ -144,7 +144,7 @@ function designexo_customizer_theme_settings( $wp_customize ){
 			'designexo_footer_copright_text',
 			array(
 				'sanitize_callback' =>  'designexo_sanitize_text',
-				'default' => __('Copyright &copy; 2024 | Powered by <a href="//wordpress.org/">WordPress</a> <span class="sep"> | </span> Designexo theme by <a target="_blank" href="//themearile.com/">ThemeArile</a>', 'designexo'),
+				'default' => __('Copyright &copy; 2025 | Powered by <a href="//wordpress.org/">WordPress</a> <span class="sep"> | </span> Designexo theme by <a target="_blank" href="//themearile.com/">ThemeArile</a>', 'designexo'),
 				'transport'         => $selective_refresh,
 			)	
 		);

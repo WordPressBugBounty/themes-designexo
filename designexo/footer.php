@@ -11,7 +11,7 @@
 $designexo_footer_widgets_enabled = get_theme_mod('designexo_footer_widgets_enabled', true);  
 $designexo_footer_container_size = get_theme_mod('designexo_footer_container_size', 'container');
 $designexo_footer_copright_enabled = get_theme_mod('designexo_footer_copright_enabled', true);
-$designexo_footer_copright_text = get_theme_mod('designexo_footer_copright_text', __('Copyright &copy; 2024 | Powered by <a href="//wordpress.org/">WordPress</a> <span class="sep"> | </span> Designexo theme by <a target="_blank" href="//themearile.com/">ThemeArile</a>', 'designexo'));
+$designexo_footer_copright_text = get_theme_mod('designexo_footer_copright_text', __('Copyright &copy; 2025 | Powered by <a href="//wordpress.org/">WordPress</a> <span class="sep"> | </span> Designexo theme by <a target="_blank" href="//themearile.com/">ThemeArile</a>', 'designexo'));
 $designexo_scroll_to_top_enabled = get_theme_mod('designexo_scroll_to_top_enabled', true); 
 ?>
 	<!--Footer-->
