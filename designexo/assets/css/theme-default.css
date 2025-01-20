@@ -506,6 +506,9 @@ address i {
 .sidebar .widget .wp-block-group .wp-block-embed .wp-element-caption a {
 	color: #FAB702;
 } 
+.sidebar .widget .wp-block-group .wp-block-read-more {
+	color: #FAB702;
+} 
 
 
 /*------------------------------------------------------------
