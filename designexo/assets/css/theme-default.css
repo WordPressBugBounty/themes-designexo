@@ -580,6 +580,9 @@ address i {
 .footer-sidebar .wp-block-embed .wp-element-caption a {
 	color: #FAB702;
 }
+.footer-sidebar .widget .wp-block-read-more {
+	color: #FAB702;
+}
 
 /*--------------------------------------------------
 =>> Page Scroll Up/Down Area
