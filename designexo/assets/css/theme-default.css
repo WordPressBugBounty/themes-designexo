@@ -340,7 +340,8 @@ input[type="submit"] {
 .widget .widget-title:after {
     background: #fab702;
 }
-.sidebar .widget .widget-title {
+.sidebar .widget .widget-title, 
+.sidebar .widget .wp-block-heading {
     border-left: 5px solid #FAB702;
 }
 .widget_archive li, .widget_categories li, .widget_links li, 
