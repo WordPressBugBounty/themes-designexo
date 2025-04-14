@@ -337,12 +337,14 @@ input[type="submit"] {
 .footer-sidebar .widget_rss ul li .rsswidget:focus { 
 	color: #FAB702; 
 }
-.widget .widget-title:after {
-    background: #fab702;
-}
 .sidebar .widget .widget-title, 
-.sidebar .widget .wp-block-heading {
+.sidebar .widget .wp-block-heading, 
+.sidebar .widget .wp-block-search .wp-block-search__label {
     border-left: 5px solid #FAB702;
+}
+.widget .widget-title:after, 
+.widget .wp-block-heading:after {
+    background: #fab702;
 }
 .widget_archive li, .widget_categories li, .widget_links li, 
 .widget_meta li, .widget_nav_menu li, .widget_pages li, 
@@ -420,10 +422,6 @@ address i {
 =>> Sidebar Widget Style Css According to WordPress 5.8
 --------------------------------------------------*/
 
-.sidebar .widget .wp-block-group h2, 
-.sidebar .widget .wp-block-search .wp-block-search__label { 
-	border-left: 5px solid #FAB702;
-}	
 .sidebar .widget .wp-block-group .wp-block-tag-cloud a:hover, 
 .sidebar .widget .wp-block-group .wp-block-tag-cloud a:focus {
     background-color: #FAB702;
@@ -518,12 +516,6 @@ address i {
 =>> Footer Sidebar Widget Style Css According to WordPress 5.8
 ------------------------------------------------------------*/
 
-.footer-sidebar .widget .wp-block-group h1:after, 
-.footer-sidebar .widget .wp-block-group h2:after, 
-.footer-sidebar .widget .wp-block-group h3:after, 
-.footer-sidebar .widget .wp-block-group h4:after, 
-.footer-sidebar .widget .wp-block-group h5:after, 
-.footer-sidebar .widget .wp-block-group h6:after, 
 .footer-sidebar .widget .wp-block-search .wp-block-search__label:after {
     background: #fab702;
 }

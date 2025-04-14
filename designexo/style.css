@@ -4,7 +4,7 @@ Theme URI: https://themearile.com/designexo-theme/
 Author: ThemeArile
 Author URI: https://themearile.com
 Description: Designexo is a fully modern and high-quality WordPress theme for creating architects and interior design websites. The theme perfectly suited for architecture, interior design, decoration, business, furniture, home decor, construction, corporate, agency, business promotion, industries, Beauty & spa salons, photography, gym, blog, travel agency and many other websites compatible, You will have lots of options to consider. As well as sophisticated plus it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes. This theme supports the best Elementor page builder to create, edit and updates page designs as per the requirement. Designexo also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics and much more. Check the demo of Designexo Pro https://themearile.com/designexo-pro-theme/.
-Version: 17.4
+Version: 17.5
 Tested up to: 6.7
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -1862,7 +1862,8 @@ label {
 	letter-spacing: 3px;
     text-transform: uppercase;
 }
-.widget .widget-title:after {
+.widget .widget-title:after, 
+.widget .wp-block-heading:after {
 	content: '';
     height: 2px;
     width: 40px;
@@ -1877,7 +1878,10 @@ label {
     padding-left: 0.625rem;
     padding: 0.875rem 0.9375rem 0.9375rem;
 }
-.sidebar .widget .widget-title:after { display: none; }
+.sidebar .widget .widget-title:after, 
+.sidebar .widget .wp-block-heading:after { 
+	display: none; 
+}
 .sidebar .widget .widget-title a.rsswidget {
     color: #ffffff;	
 }
@@ -2292,6 +2296,9 @@ embed, iframe, object {
 .is-style-outline>.wp-block-button__link:not(.has-text-color) {
 	color: #fff;
 }
+.wp-block-button .wp-block-button__link {
+	box-shadow: none;
+}
 /*wp-block-group*/
 .wp-block-group.has-background {
 	margin-bottom: 1.563rem;
@@ -2360,6 +2367,7 @@ ul.wp-block-archives li:last-child {
 }
 .wp-block-calendar table.wp-calendar-table th {
 	background: #202020;
+	border-color: #333;
 	text-align: center;
 	font-weight: 600;
 }
@@ -2372,6 +2380,9 @@ ul.wp-block-archives li:last-child {
 .wp-block-calendar .wp-calendar-nav-next a, 
 .wp-block-calendar .wp-calendar-nav-prev a {
 	box-shadow: none;
+}
+.wp-block-table td, .wp-block-table th {
+	border: 1px solid #333;
 }
 /*wp-block-archives-dropdown*/
 .wp-block-archives-dropdown, 
@@ -2488,6 +2499,11 @@ ul.wp-block-rss li.wp-block-rss__item:last-child {
 .footer-sidebar .widget, 
 .footer-sidebar .widget a { 
 	color: #cccccc; 
+}
+.footer-sidebar .widget .widget-title, 
+.footer-sidebar .widget .wp-block-heading {
+	background-color: transparent;
+	border-left: 0 none;
 }
 /*Rss Widget*/
 .footer-sidebar .widget_rss ul li .rsswidget {
@@ -2774,11 +2790,11 @@ ul.wp-block-rss li.wp-block-rss__item:last-child {
 .sidebar .widget .wp-block-group .wp-block-columns {
 	margin-bottom: 0;
 }
-.sidebar .widget .wp-block-group .is-layout-flow h2 {
-	border-left: 0 none;
-}
 .sidebar .widget .wp-block-group .wp-block-details {
     margin: 1.563rem 1rem 1.563rem;
+}
+.sidebar .widget .wp-block-group .wp-block-details p {
+    padding: 1rem 0 0;
 }
 .theme-blog .post .entry-content ul li {
 	margin-bottom: 10px;
@@ -2865,26 +2881,14 @@ ul.wp-block-rss li.wp-block-rss__item:last-child {
 }
 .sidebar .widget .wp-block-group .wp-block-code {
     margin: 1.563rem 1.000rem 1.563rem;
+	background-color: #202020;
+	color: #fff;
 }
 
 /*------------------------------------------------------------
 =>> Footer Sidebar Widget Style Css According to WordPress 5.8
 ------------------------------------------------------------*/
 
-.footer-sidebar .widget .wp-block-group h2 {
-	background-color: transparent;
-	padding: 0;
-	font-size: 1.25rem;
-	border-left: none;
-	margin-bottom: 2.125rem;
-	text-transform: uppercase;
-}
-.footer-sidebar .widget .wp-block-group h1:after, 
-.footer-sidebar .widget .wp-block-group h2:after, 
-.footer-sidebar .widget .wp-block-group h3:after, 
-.footer-sidebar .widget .wp-block-group h4:after, 
-.footer-sidebar .widget .wp-block-group h5:after, 
-.footer-sidebar .widget .wp-block-group h6:after, 
 .footer-sidebar .widget .wp-block-search .wp-block-search__label:after {
     content: '';
     height: 2px;
@@ -2968,7 +2972,8 @@ ul.wp-block-rss li.wp-block-rss__item:last-child {
 .footer-sidebar .widget .wp-block-group .wp-block-pullquote p {
     padding-bottom: 0;
 }
-.footer-sidebar .widget .wp-block-group .wp-block-verse {
+.footer-sidebar .widget .wp-block-group .wp-block-verse, 
+.footer-sidebar .widget .wp-block-group .wp-block-preformatted {
 	background: #202020;
 	color: #cccccc;
 }
