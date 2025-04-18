@@ -15,17 +15,14 @@ $designexo_sidebar_layout = array(
 
     'right-sidebar' => array(
          'value'     => 'right-sidebar',
-    	 'label'     => __( 'Right Sidebar', 'designexo' ),
     	 'thumbnail' => get_template_directory_uri() . '/assets/img/theme-right-sidebar.png'         
      ),   
     'no-sidebar'     => array(
     	 'value'     => 'no-sidebar',
-    	 'label'     => __( 'Full Width', 'designexo' ),
     	 'thumbnail' => get_template_directory_uri() . '/assets/img/theme-fullwidth.png'
    	),    
     'left-sidebar' => array(
          'value'     => 'left-sidebar',
-    	 'label'     => __( 'Left Sidebar', 'designexo' ),
     	 'thumbnail' => get_template_directory_uri() . '/assets/img/theme-left-sidebar.png'         
     ),
   
@@ -50,7 +47,7 @@ function designexo_sidebar_layout_callback(){
             <div class="radio-image-wrapper" style="float:left; margin-right:30px;">
                 <label class="description">
                     <span><img src="<?php echo esc_url( $field['thumbnail'] ); ?>" alt="" /></span><br/>
-                    <input type="radio" name="designexo_sidebar_layout" value="<?php echo esc_attr( $field['value'] ); ?>" <?php checked( $field['value'], $layout ); if( empty( $layout ) ){ checked( $field['value'], 'right-sidebar' ); }?>/>&nbsp;<?php echo esc_html( $field['label'] ); ?>
+                    <input type="radio" name="designexo_sidebar_layout" value="<?php echo esc_attr( $field['value'] ); ?>" <?php checked( $field['value'], $layout ); if( empty( $layout ) ){ checked( $field['value'], 'right-sidebar' ); }?>/>
                 </label>
             </div>
             <?php } // end foreach 

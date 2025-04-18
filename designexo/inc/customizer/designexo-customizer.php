@@ -93,6 +93,8 @@ if ( ! class_exists( 'Designexo_Customizer' ) ) :
 		public function designexo_customizer_settings() {
 			
 			// Base class.
+			require DESIGNEXO_PARENT_CUSTOMIZER_DIR . '/customizer-notice/designexo-notify-plugin.php';
+			// Base class.
 			require DESIGNEXO_PARENT_CUSTOMIZER_DIR . '/customizer-settings/designexo-customize-base-customizer-settings.php';
 			// General.
 			require DESIGNEXO_PARENT_CUSTOMIZER_DIR . '/customizer-settings/theme-settings/designexo-general-customizer-settings.php';
