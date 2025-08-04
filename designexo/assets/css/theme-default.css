@@ -578,6 +578,9 @@ address i {
 .footer-sidebar .widget .wp-block-read-more {
 	color: #FAB702;
 }
+.footer-sidebar .widget .wp-block-group .wp-block-file .wp-block-file__button {
+    background-color: #FAB702;
+}
 
 /*--------------------------------------------------
 =>> Page Scroll Up/Down Area
