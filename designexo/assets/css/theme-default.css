@@ -511,6 +511,12 @@ address i {
 .sidebar .widget .wp-block-group .wp-block-file .wp-block-file__button {
     background-color: #FAB702;
 }
+/*Woocommerce Styles*/
+.wp-block-woocommerce-cart .wp-block-woocommerce-proceed-to-checkout-block .wc-block-cart__submit-button {
+	background: #FAB702;
+	border: solid 1px #FAB702;
+}
+
 
 /*------------------------------------------------------------
 =>> Footer Sidebar Widget Style Css According to WordPress 5.8

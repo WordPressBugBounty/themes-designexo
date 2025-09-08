@@ -4,8 +4,8 @@ Author: ThemeArile
 Requires at least: 4.7
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 17.9.4
-Version: 17.9.4
+Stable tag: 17.9.5
+Version: 17.9.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -59,6 +59,9 @@ License: CC0 Public Domain
 License: CC0 Public Domain
 
 == Changelog ==
+
+= Version 17.9.5
+* We have fixed the checkout button color style issue in the woocommerce.
 
 = Version 17.9.4
 * We added the font-weight of the wp-block-archives widget in blog post area.
