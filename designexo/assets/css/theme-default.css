@@ -516,7 +516,9 @@ address i {
 	background: #FAB702;
 	border: solid 1px #FAB702;
 }
-
+.sidebar .widget .wp-block-heading a {
+    color: #FAB702;
+}
 
 /*------------------------------------------------------------
 =>> Footer Sidebar Widget Style Css According to WordPress 5.8
@@ -586,6 +588,9 @@ address i {
 }
 .footer-sidebar .widget .wp-block-group .wp-block-file .wp-block-file__button {
     background-color: #FAB702;
+}
+.footer-sidebar .widget .wp-block-heading a {
+    color: #FAB702;
 }
 
 /*--------------------------------------------------
