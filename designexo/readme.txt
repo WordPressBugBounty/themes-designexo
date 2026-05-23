@@ -2,10 +2,10 @@
 Contributors: ThemeArile
 Author: ThemeArile
 Requires at least: 4.7
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 18.0.2
-Version: 18.0.2
+Stable tag: 18.0.3
+Version: 18.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -59,6 +59,9 @@ License: CC0 Public Domain
 License: CC0 Public Domain
 
 == Changelog ==
+
+= Version 18.0.3
+* We have fixed the css color issue acording latest WordPress 7.0.
 
 = Version 18.0.2
 * We have removed the onhover border and background color of the accordion widget in footer sidebar widget area.
